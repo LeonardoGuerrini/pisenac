@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&family=Source+Sans+3:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: TitlingGothicFB;
+    src: url(Fontes/TitlingGothicFB\ Cond\ Bold.otf);
+}
+
+@font-face {
+    font-family: FranklinGothicCond;
+    src: url(Fontes/FranklinGothicCond\ Bold.ttf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpandedMedium;
+    src: url(Fontes/BaseNeueTrial-ExpandedMedium.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpBlack;
+    src: url(Fontes/BaseNeueTrial-ExpandedBlack.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-Light;
+    src: url(Fontes/BaseNeueTrial-Light.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-SuperExpLight;
+    src: url(Fontes/BaseNeueTrial-SuperExpLight.otf);
+}

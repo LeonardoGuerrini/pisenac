@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&family=Source+Sans+3:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: TitlingGothicFB;
+    src: url(/Fontes/TitlingGothicFB\ Cond\ Bold.otf);
+}
+
+@font-face {
+    font-family: FranklinGothicCond;
+    src: url(/Fontes/FranklinGothicCond\ Bold.ttf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpandedMedium;
+    src: url(/Fontes/BaseNeueTrial-ExpandedMedium.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpBlack;
+    src: url(/Fontes/BaseNeueTrial-ExpandedBlack.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-Light;
+    src: url(/Fontes/BaseNeueTrial-Light.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-SuperExpLight;
+    src: url(/Fontes/BaseNeueTrial-SuperExpLight.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #050505 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    transition: all 0.3s;
+    color: white;
+}
+
+.navbar-item:hover {
+    color: #929292;
+}
+
+
+/* INÍCIO */
+
+
+.titulo {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
+}
+
+.titulo-item {
+    font-family: 'BaseNeueTrial-ExpandedMedium';
+    color: white;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+#counter {
+    color: #ffd700;
+}
+
+#csspan {
+    border-bottom: 2px solid white;
+}
+
+#newera {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 5.5rem;
+}
+
+#era {
+    color: #ffd700;
+}
+
+main{
+    font-family: BaseNeueTrial-SuperExpLight;
+}
+
+section {
+    font-family: Inter;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* navbar */
+
+    .navbar-item-div{
+        display: flex;
+        flex-direction: row;
+        gap:30px;
+    }
+
+    .navbar-item{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    /* first div */
+
+    .titulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .titulo-item {
+        color: white;
+        font-size: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        word-break: break-all;
+    }
+
+    .main-text {
+        font-size: 2.3rem;
+        border-bottom: 1px solid white;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+
+    .counter{
+        color: #ffd700;
+    }
+
+    .counter-main {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin: 0 auto;
+        font: 900;
+    }
+
+    .strike-main {
+        display: flex;
+        justify-content: center;
+        font: 900;
+        color: white;
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .p-one {
+        font-size: 2.5rem;
+        color: white;
+        word-break: break-all;
+    }
+
+    .p-two {
+        font-size: 2.5rem;
+        color: #ffd700;
+    }
+
+    /* main */
+
+    #novidades{
+        text-align: center;
+        margin-top: 15rem;
+        color: white;
+    }
+
+    .titulo-novidades{
+        font-size: 3rem;
+        color: #ffd700;
+
+    }
+
+    .div-mudancas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .div-mudancas-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: justify;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .div-mudancas-content p{
+        width: 90%;
+    }
+
+    .div-mudancas-content img{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .div-mudancas-content li{
+        list-style: circle;
+    }
+
+    .ranking ul {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .mudancas-graficos{
+        margin-top: 2rem;
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        margin-top: 12%;
+        font-family: Inter;
+    }
+
+    footer h1{
+        font-size: 23px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    
+    footer ul{
+        margin-top: 5%;
+    }
+
+    footer div{
+        margin-top: 20px;
+    }
+
+    .footer-link{
+        width: 30%;
+        font-size: 15px;
+        padding: 5px 0;
+        margin-left: 10px;
+        color: #0969DADA;
+    }
+
+    
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
