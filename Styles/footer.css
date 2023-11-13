@@ -3,11 +3,13 @@
     /* footer */
     footer {
         display: flex;
+        position: absolute;
         flex-direction: column;
         color: white;
         text-align: center;
-        margin-top: 12%;
+        margin-top: 20%;
         font-family: Inter;
+        width: 100%;
     }
 
     footer h1{

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&family=Source+Sans+3:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: TitlingGothicFB;
+    src: url(/Fontes/TitlingGothicFB\ Cond\ Bold.otf);
+}
+
+@font-face {
+    font-family: FranklinGothicCond;
+    src: url(/Fontes/FranklinGothicCond\ Bold.ttf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpandedMedium;
+    src: url(/Fontes/BaseNeueTrial-ExpandedMedium.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-ExpBlack;
+    src: url(/Fontes/BaseNeueTrial-ExpandedBlack.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-Light;
+    src: url(/Fontes/BaseNeueTrial-Light.otf);
+}
+
+@font-face {
+    font-family: BaseNeueTrial-SuperExpLight;
+    src: url(/Fontes/BaseNeueTrial-SuperExpLight.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #050505 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo-calendario{
+    color: #ffd700;
+}
+
+/* INÍCIO */
+
+#main {
+    font-family: Inter;
+}
+
+.titulo-calendario{
+    color: #ffd700;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+
+    /* main */
+
+    #main{
+        text-align: center;
+        margin-top: 5rem;
+        color: white;
+        margin-top: 15%;
+    }
+
+    .titulo-calendario{
+        font-size: 2.3rem;
+        color: #ffd700;
+
+    }
+
+    .calendario-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 20px;   
+    }
+
+    .evento{
+        color: white;
+    }
+
+    #h3-alert{
+        margin-top: 50px;
+        margin-bottom: 23%;
+    }
+
+}
