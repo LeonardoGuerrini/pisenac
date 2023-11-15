@@ -115,7 +115,7 @@ section {
 
     #novidades{
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 15%;
         color: white;
     }
 
@@ -197,4 +197,5 @@ section {
         margin-left: 10px;
         color: #0969DADA;
     }
+
 }

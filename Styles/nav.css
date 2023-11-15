@@ -5,7 +5,6 @@ nav {
 }
 
 .navbar-item {
-    margin: 20px;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -27,12 +26,11 @@ nav {
     .navbar-item-div{
         display: flex;
         flex-direction: row;
-        gap:30px;
+        gap:15px;
     }
 
     .navbar-item{
         font-size: 20px;
-        margin: 20px 0;
     }
 }
 
