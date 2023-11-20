@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-.titulo-calendario{
+.titulo-calendario {
     color: #ffd700;
 }
 
@@ -85,48 +85,231 @@ nav {
     font-family: Inter;
 }
 
-.titulo-calendario{
+.titulo-calendario {
     color: #ffd700;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    
+    /* navbar */
+
+    .navbar-item-div {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .navbar-item {
+        font-size: 20px;
+        margin: 20px 0;
+    }
 
     /* main */
 
-    #main{
+    #main {
         text-align: center;
         color: white;
         margin-top: 15%;
     }
 
-    .titulo-calendario{
+    .titulo-calendario {
         font-size: 3rem;
         color: #ffd700;
 
     }
 
-    .subtitulo{
+    .subtitulo {
         margin: 0px 10px 0px 10px;
     }
 
-    .calendario-content{
+    .calendario-content {
         display: flex;
         flex-direction: column;
         text-align: center;
         gap: 30px;
-        margin-top: 20px;   
+        margin-top: 20px;
     }
 
-    .evento{
+    .evento {
         color: white;
     }
 
-    #h3-alert{
+    #h3-alert {
         margin-top: 50px;
         margin-bottom: 23%;
     }
 
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* navbar */
+
+    .navbar-item-div {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .navbar-item {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    /* main */
+
+    #main {
+        text-align: center;
+        color: white;
+        margin-top: 15%;
+    }
+
+    .titulo-calendario {
+        font-size: 3rem;
+        color: #ffd700;
+
+    }
+
+    .subtitulo {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .calendario-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .evento {
+        color: white;
+    }
+
+    #h3-alert {
+        margin-top: 50px;
+        margin-bottom: 23%;
+    }
+
+        /* footer */
+        footer {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            margin-top: 12%;
+            font-family: Inter;
+        }
+    
+        footer h1{
+            font-size: 23px;
+        }
+    
+        footer p {
+            font-size: 16px;
+            margin-top: 5%;
+        }
+        
+        footer ul{
+            margin-top: 5%;
+        }
+    
+        footer div{
+            margin-top: 20px;
+        }
+    
+        .footer-link{
+            width: 30%;
+            font-size: 15px;
+            padding: 5px 0;
+            margin-left: 10px;
+            color: #0969DADA;
+        }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* main */
+
+    #main {
+        text-align: center;
+        color: white;
+        margin-top: 15%;
+    }
+
+    .titulo-calendario {
+        font-size: 3rem;
+        color: #ffd700;
+
+    }
+
+    .subtitulo {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .calendario-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .evento {
+        color: white;
+    }
+
+    #h3-alert {
+        margin-top: 50px;
+        margin-bottom: 23%;
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        margin-top: 12%;
+        font-family: Inter;
+    }
+
+    footer h1 {
+        font-size: 23px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 5%;
+    }
+
+    footer ul {
+        margin-top: 5%;
+    }
+
+    footer div {
+        margin-top: 20px;
+    }
+
+    .footer-link {
+        width: 30%;
+        font-size: 15px;
+        padding: 5px 0;
+        margin-left: 10px;
+        color: #0969DADA;
+    }
+
+    .rede-social {
+        font-size: 30px;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
