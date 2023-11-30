@@ -42,6 +42,18 @@ body {
     background-color: #050505 !important;
 }
 
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(251, 244, 244);
+}
+
 li {
     list-style: none;
 }
@@ -865,8 +877,6 @@ section {
 
     .div-mudancas-content p{
         font-size: 18px;
-        /* margin-left: 267px;
-        margin-right: 267px; */
         margin-left: 20%;
         margin-right: 20%;
     }
