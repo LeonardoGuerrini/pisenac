@@ -55,7 +55,7 @@ li {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: rgb(251, 244, 244);
+    background-color: rgb(255, 255, 255);
 }
 
 a {
